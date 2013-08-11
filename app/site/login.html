@@ -1,0 +1,16 @@
+<div id="login" title="Ingresar al Sistema">
+        <!--img alt="home page" src="app/site/img/logo.png"-->
+        <h2>Ingresar al Sistema</h2>
+        <hr>
+        <div id="msg_login"></div>
+        <div id="msg_loader"></div>
+        <table>
+        	<tr><td align="right"><label>Usuario: </label></td>
+        	    <td><input type="text" name="user" placeholder="Nombre de Usuario" id="user_id" ></td>
+        	</tr>
+            <tr><td><label>Contrase&ntilde;a: </label></td>
+            	<td><input type="password" name="password" placeholder="Clave de acceso" id="pass_id"></td>
+            </tr>
+         </table>
+        <input id="btn_enviar" type="button" value="Ingresar" onclick="new Home().verifyUser()">
+</div>
